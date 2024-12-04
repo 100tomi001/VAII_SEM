@@ -1,0 +1,119 @@
+@media (min-width: 1024px) {
+  body {
+      font-size: 18px;
+  }
+
+  header {
+      padding: 20px;
+      text-align: center;
+  }
+
+  main {
+      max-width: 1000px;
+      margin: 0 auto;
+  }
+}
+
+body {
+  background-image: url('./pictures/PDX_Main_BG.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-left: 220px; 
+  width: calc(100% - 220px);
+}
+a {
+  text-decoration: none;
+  color: blue;
+}
+a:hover {
+  color: red;
+}
+h1 {
+  text-align: center;
+}
+p {
+  color: black;
+  line-height: 1.6;
+}
+img {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+button {
+  background-color: #444;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+form {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+main {
+  min-height: 400px;
+}
+aside {
+  padding: 10px;
+  margin: 0;
+  width: 200px;
+  height: 100vh;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+aside nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+aside nav li {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+aside nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  display: block;
+  transition: background-color 0.3s;
+}
+
+aside nav a:hover {
+  background-color: #555;
+}
+
+section {
+  margin-left: 250px;
+}
+
+.bordered {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.MimoNavigacie  {
+  margin-left: 220px;
+  padding: 20px;
+}
+.text {
+  color: rgb(128, 0, 0);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: rgba(128, 128, 128, 0.7);
+}
